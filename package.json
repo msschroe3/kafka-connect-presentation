@@ -1,9 +1,9 @@
 {
-  "name": "@objectpartners/presentation-starter-kit",
+  "name": "@msschroe3/kafka-connect-presentation",
   "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
-  "author": "Dustin Schau <dustin.schau@objectpartners.com>",
+  "author": "Matt Schroeder <matt.schroeder@objectpartners.com>",
   "license": "MIT",
   "scripts": {
     "precommit": "pretty-quick --staged",

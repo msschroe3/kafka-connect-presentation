@@ -1,16 +1,8 @@
-## Code slide
+## Today's Talk
 
-```jsx
-import React from 'react';
-
-export function App() {
-  return <h1>Hello World</h1>;
-}
-
-```
-
----
-
-## Example slide
-
-This is some great content... I hope!
+* Brief overview of Kafka ecosystem
+* Kafka Connect - What is it?
+* Source Connectors
+* Sink Connectors
+* Deploying a Connector
+* Live Demo
