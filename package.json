@@ -47,12 +47,14 @@
   },
   "dependencies": {
     "@objectpartners/revealjs-theme": "~0.0.0",
+    "@dschau/spectacle-code-slide": "~0.5.2",
     "prismjs": "~1.14.0",
     "react": "~16.3.2",
     "react-dom": "~16.3.2",
     "react-icons": "~2.2.7",
     "react-live": "~1.10.1",
-    "reveal.js": "~3.6.0"
+    "reveal.js": "~3.6.0",
+    "spectacle": "^5.0.0"
   },
   "workspaces": {
     "nohoist": ["reveal.js"]

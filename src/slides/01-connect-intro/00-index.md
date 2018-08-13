@@ -1,9 +1,17 @@
-## More on Kafka Connect
-
-Something here
+## [Kafka Ecosystem](https://cwiki.apache.org/confluence/display/KAFKA/Ecosystem)
 
 ---
 
-### Another Slide on Connect
+![kafka](./images/KAFKA.png)
 
-More stuff
+---
+
+![connect](./images/KAFKA_CONNECT.png)
+
+---
+
+![streams](./images/KAFKA_STREAMS.png)
+
+---
+
+![ksql](./images/KAFKA_KSQL.png)
