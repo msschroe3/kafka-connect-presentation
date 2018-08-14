@@ -28,7 +28,7 @@ Every connector boils down to a few pieces
 
 ### ConfigDef
 
-```java
+```groovy
 ConfigDef()
         .define(
             SPOTIFY_USERNAME_CONF,
@@ -54,7 +54,7 @@ name, type, default, documentation, group info, order, width, display name
 
 ### Connector
 
-```java
+```groovy
 public abstract class Connector {
     public abstract String version();
     public abstract void start(Map<String, String> props);
@@ -79,7 +79,7 @@ public abstract class Connector {
 
 ### Source Task
 
-```java
+```groovy
 public abstract class SourceTask implements Task {
     public abstract void start(Map<String, String> props);
     public abstract List<SourceRecord> poll();
@@ -99,7 +99,7 @@ Each source task has a dedicated thread
 
 ### SourceRecord
 
-```java
+```groovy
 SourceRecord(
   Map sourcePartition,
   Map sourceOffset,
@@ -119,7 +119,7 @@ SourceRecord(
 
 ### SchemaBuilder + AvroConverter
 
-```java
+```groovy
 SchemaBuilder.struct()
       .name(LOGICAL_NAME)
       .version(VERSION)

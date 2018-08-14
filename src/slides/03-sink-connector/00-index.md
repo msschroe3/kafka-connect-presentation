@@ -8,7 +8,7 @@ _see Source Connector slides_
 
 ---
 
-```java
+```groovy
 public abstract class SinkTask implements Task {
   public abstract void put(Collection<SinkRecord> records);
   public abstract void flush(Map<TopicPartition, Long> offsets);
