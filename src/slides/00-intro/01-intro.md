@@ -1,6 +1,6 @@
 ## Today's Talk
 
-* Kafka Ecosystem
+* Kafka Ecosystem (boiled down)
 * Kafka Connect
   * Source Connectors
   * Sink Connectors
