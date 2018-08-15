@@ -113,10 +113,10 @@ export class SlideDeck extends Component {
           <section data-background="https://media.giphy.com/media/eTVG7eVNnud8Y/giphy.gif">
             <h2>Questions</h2>
           </section>
-          <section data-state="title">
+          {/* <section data-state="title">
             <h1>Thank you!</h1>
             <h3>Follow us! @objectpartners</h3>
-          </section>
+          </section> */}
         </div>
       </div>
     );
