@@ -31,14 +31,14 @@ Every connector boils down to a few pieces
 ```groovy
 ConfigDef()
         .define(
-            SPOTIFY_USERNAME_CONF,
+            "spotify.username",
             ConfigDef.Type.STRING,
             "anonymous",
             ConfigDef.Importance.HIGH,
             "Spotify username."
         )
         .define(
-            SPOTIFY_OAUTH_ACCESS_TOKEN_CONF,
+            "spotify.access.token",
             ConfigDef.Type.PASSWORD,
             "",
             ConfigDef.Importance.MEDIUM,
@@ -111,8 +111,9 @@ SourceRecord(
 )
 ```
 
----
+<!--
 
+---
 # Schema
 
 ---
@@ -133,7 +134,7 @@ SchemaBuilder.struct()
 AvroConverter takes a Struct (which includes the Schema) and handles serialization
 </aside>
 
-<!-- ---
+---
 
 ### Extension functions FTW!
 
@@ -142,7 +143,9 @@ fun PlayHistoryModel.toStruct(): Struct = Struct(PlayHistory.SCHEMA)
         .put(PlayHistory.PLAYED_AT_FIELD, this.playedAt)
         .put(PlayHistory.TRACK_FIELD, this.track.toStruct())
         .put(PlayHistory.CONTEXT_FIELD, this.context?.toStruct())
-``` -->
+```
+
+-->
 
 ---
 

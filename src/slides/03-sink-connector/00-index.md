@@ -13,6 +13,7 @@ public abstract class SinkTask implements Task {
   public abstract void put(Collection<SinkRecord> records);
   public abstract void flush(Map<TopicPartition, Long> offsets);
 
+  // partition rebalancing
   public void open(Collection<TopicPartition> partitions) {}
   public void close(Collection<TopicPartition> partitions) {}
 }
